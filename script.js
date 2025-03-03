@@ -15,6 +15,7 @@ document.querySelectorAll('nav a').forEach(anchor => {
     });
 });
 
+// Document visualization
 document.getElementById('show-report').addEventListener('click', function() {
     const container = document.getElementById('report-container');
     if (container.style.display === 'none') {
